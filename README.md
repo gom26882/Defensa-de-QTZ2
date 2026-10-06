@@ -29,26 +29,6 @@ Desde el menú principal el usuario puede:
 
 El programa utiliza el patrón *MVC (Modelo-Vista-Controlador)*:
 
-text
-defensaqtz2/
-│
-├── Main.java
-│
-├── model/
-│   ├── Modulo.java
-│   ├── ModuloEnergia.java
-│   ├── ModuloVuelo.java
-│   ├── ModuloTierra.java
-│   ├── CatalogoModulos.java
-│   └── CargaInicial.java
-│
-├── view/
-│   └── ConsolaView.java
-│
-└── controller/
-    └── SimuladorController.java
-
-
 - *Modelo:* contiene los módulos y la lógica principal del programa.
 - *Vista:* muestra el menú y recibe los datos ingresados por el usuario.
 - *Controlador:* comunica la vista con el modelo y controla las opciones del menú.
